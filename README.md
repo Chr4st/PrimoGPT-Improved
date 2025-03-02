@@ -10,4 +10,4 @@ For further information, go to the original Repository: https://github.com/ivebo
 
 ## Improvements
 
-The updated train.py script increases market adaptability by using Hidden Markov Models (HMM) for market regime detection and FinBERT for sentiment analysis, allowing the RL agent to adjust strategies dynamically. Additionally, a Sharpe Ratio-based reward function improves risk-adjusted returns, making the trading model more stable and profitable.
+1. The updated train.py script increases market adaptability by using Hidden Markov Models (HMM) for market regime detection and FinBERT for sentiment analysis, allowing the RL agent to adjust strategies dynamically. Additionally, a Sharpe Ratio-based reward function improves risk-adjusted returns, making the trading model more stable and profitable.
