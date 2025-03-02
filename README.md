@@ -11,3 +11,4 @@ For further information, go to the original Repository: https://github.com/ivebo
 ## Improvements
 
 1. The updated train.py script increases market adaptability by using Hidden Markov Models (HMM) for market regime detection and FinBERT for sentiment analysis, allowing the RL agent to adjust strategies dynamically. Additionally, a Sharpe Ratio-based reward function improves risk-adjusted returns, making the trading model more stable and profitable.
+2. I added slippage and transaction cost simulation to test.py, making trade execution more realistic by adjusting prices with ±0.1% slippage and applying a 0.05% transaction cost per trade. This increases backtesting accuracy and ensures that PrimoRL’s performance metrics reflect real-world trading conditions.
